@@ -52,10 +52,17 @@ void printArray(int arr[],int size){
 }
 
 int main(){
+
+// #ifndef ONLINE_JUDGE
+// 	freopen("input.txt","r",stdin);
+// 	freopen("output.txt","w",stdout);
+// #endif
 	
 	int arr[] = {2,7,4,1,5,3};
 	int n = sizeof(arr)/sizeof(arr[0]);
 	bubble(arr,n);
 	printArray(arr,n);
+	return 0;
+
 
 }
