@@ -1,0 +1,25 @@
+Languages known : HTML 5,CSS,JS, C# and PYTHON
+
+Tools, libraries, Engines and Framework worked with :  Jupiter notebook, Keil, Arduino, Flask, OpenCv, Grunt, Express.js, Node.js, BS and Git
+
+I see technology as a major force which can work wonders for the healthcare sector, especially the mental healthcare domain. I'm passionate about harnessing the powers of AI in order to treat the mentally unstable youth, which are a significant component of the population today.
+
+A complex project I've worked on:
+I worked on the project of 'Camera tracking across camera network', which was to be later integrated with the Self Driving Car project @ IIIT Delhi.
+
+Challenge was :
+The state of the art research work in the domain of Multi camera tracking still has a long way to go. The two aspects of the problem I focussed on , was to find a way to integrate the 'Single Camera Tracking' & the 'Inter-Camera Tracking'
+module. I solved this problem using a global graph approach which integrated the two modules, so that the errors of the SCT which have been observed to creep in the ICT module were observed to reduce by 35%.
+
+The second aspect, I worked on was determing the time lag between the appearance of a target in a camera after exiting from a previous non-overlapping camera. Using the literature compilation for this project, I read a paper which assuming the similar paths of people on a sidewalk expressed the time lag of a person, to be a Gaussian distribution.
+This approach helped us improve the overall accuracy on our dataset by over 19%.
+
+Why I should be accepted:
+
+I have previously won 2 Hackathons :
+
+1. OpenData Government Hack : An Android App that uses Google Nearby API in which we will get access to nearby utilities with the reviews and historical data with an option of offline query feature.
+
+2. Code-Off : Developed a sentiment analysis model.
+
+In any hackathon, my primary aim is to develop something simple from a feasible idea, through repeated brainstorming, and I find hackathons awesome places to start working on tricky projects, with people from diverse skillsets. 
