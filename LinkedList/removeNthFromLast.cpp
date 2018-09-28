@@ -16,6 +16,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 ListNode* Solution::removeNthFromEnd(ListNode* A, int B) {
     int size = 0;
     ListNode* temp = A;

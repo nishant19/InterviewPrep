@@ -31,9 +31,9 @@ using namespace std;
 
 long long int* stairs(int n){
     
-    if(n<=0){
-        return 0;
-    }
+    // if(n<=0){
+    //     return 0;
+    // }
     
     long long int* arr = new long long int[n+1];
     arr[1] = 1;
