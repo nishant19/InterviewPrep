@@ -44,7 +44,7 @@ long long int* stairs(int n){
     for(int i=2;i<=n;i++){
         arr[i] = (arr[i-1] + arr[i-2])%mod;
     }
-    return arr;
+    return arr[n];
 }
 
 int main() {
