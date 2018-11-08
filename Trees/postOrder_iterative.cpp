@@ -1,6 +1,7 @@
-// Given a binary tree, return the inorder traversal of its nodes’ values.
+// Given a binary tree, return the postorder traversal of its nodes’ values.
 
 // Example :
+
 // Given binary tree
 
 //    1
@@ -8,12 +9,12 @@
 //      2
 //     /
 //    3
-// return [1,3,2].
+// return [3,2,1].
 
 // Using recursion is not allowed.
 
-vector<int> Solution::inorderTraversal(TreeNode* A) {
-    vector<int> inorder = {};
+vector<int> Solution::postorderTraversal(TreeNode* A) {
+    vector<int> postorder = {};
     if(A==NULL){
         return {};
     }
@@ -24,25 +25,20 @@ vector<int> Solution::inorderTraversal(TreeNode* A) {
     while(!s.empty()){
         TreeNode* temp = s.top();
         if(temp->left==NULL && temp->right==NULL){
-            inorder.push_back(temp->val);
+            postorder.push_back(temp->val);
             s.pop();
         }
         else{
-            s.pop();
             if(temp->right!=NULL){
                 s.push(temp->right);
-                temp->right=NULL;
+                temp->right = NULL;
             }
-            s.push(temp);
             if(temp->left!=NULL){
                 s.push(temp->left);
-                temp->left=NULL;
+                temp->left = NULL;
             }
             
-            
         }
-        
     }
-    
-    return inorder;
+    return postorder;
 }
